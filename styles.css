@@ -27,7 +27,7 @@ body {
 }
 
 .block-left {
-  width: 576px;
+  width: 526px;
   height: 460px;
   padding: 18px 40px 40px 40px;
   background-color: #fff;
@@ -36,8 +36,8 @@ body {
 }
 
 .title {
-  line-height: 25px;
-  margin: -18px 0px 24px;
+  line-height: 5px;
+  margin: 0px 0px 0px 5px;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.4px;
@@ -46,10 +46,11 @@ body {
 }
 
 .mark {
-  margin: 10px 0px 0px 35px;
+  margin: 10px 0px 0px 40px;
   cursor: pointer;
   height: 16px;
   width: 16px;
+  line-height: 16px;
 }
 
 .notification {
@@ -67,7 +68,7 @@ body {
 textarea {
   width: 496px;
   height: 350px;
-  margin-top: 10px;
+  margin-top: 30px;
   color: #1c244a;
   background-color: #fff;
   padding: 12px;
@@ -92,7 +93,7 @@ textarea:hover {
   background-color: #fff;
   border-radius: 0px 16px 16px 0px;
   height: 420px;
-  width: 400px;
+  width: 330px;
   margin: 0 auto;
 }
 
@@ -101,7 +102,7 @@ textarea:hover {
   color: #555b77;
   font-size: 14px;
   font-weight: 600;
-  margin: 0px 0px 6px 4px;
+  margin: 30px 0px 6px 4px;
 }
 
 form {
@@ -115,6 +116,7 @@ form {
 select {
   width: 320px;
   height: 30px;
+  margin-top: 10px;
   line-height: 48px;
   background-color: #f6f6f8;
   cursor: pointer;
@@ -129,12 +131,28 @@ select:hover {
   transform: scale(101%);
 }
 
+.option-lang {
+  width: 320px;
+  height: 30px;
+}
+
+.option {
+  height: 80x;
+  width: 300px;
+  line-height: 35px;
+  font-size: 16px;
+  margin: 12px 5px;
+  border-radius: 0px;
+
+}
+
 button {
   width: 320px;
   margin-top: 159px;
   height: 40px;
   min-height: 40px;
   border-radius: 8px;
+  border: none;
   padding-inline: 16px;
   border: none;
   color: #fff;
@@ -147,3 +165,6 @@ button {
 button:hover {
   transform: scale(101%);
 }
+
+
+
